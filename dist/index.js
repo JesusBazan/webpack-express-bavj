@@ -1,0 +1,1 @@
+(()=>{"use strict";var e,t={860:e=>{e.exports=require("express")}},r={};(e=function e(s){var n=r[s];if(void 0!==n)return n.exports;var o=r[s]={exports:{}};return t[s](o,o.exports,e),o.exports}(860)()).get("/",(function(e,t){t.send("hello typescript")})),e.listen(3e3,(function(){console.log("app listening at: ",3e3)}))})();
